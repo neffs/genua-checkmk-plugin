@@ -169,4 +169,5 @@ check_plugin_genua_extend = CheckPlugin(
     discovery_function=discover_genua_extend,
     check_function=check_genua_extend,
     check_ruleset_name="genua_extend",
+    check_default_parameters={},
 )
